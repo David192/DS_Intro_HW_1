@@ -7,7 +7,7 @@ def my_func(x1, x2, x3):
     try:
        if(x1 + x2 + x3) == 0:
           return "Not a number – denominator equals zero"
-       elif check_float_x1 == False | check_float_x2 == False | check_float_x3 == False:
+       elif check_float_x1 == False or check_float_x2 == False or check_float_x3 == False:
           return "Error: parameters should be float"
        else:
           return ((x1+x2+x3)*(x2+x3)*x3)/(x1+x2+x3)
